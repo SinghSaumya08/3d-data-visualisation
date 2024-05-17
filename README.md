@@ -26,6 +26,8 @@ python visualization_script.py
 
 Access the visualization by opening a web browser and navigating to http://localhost:8000.
 
+Double-check that you've started the web server using python -m http.server in the directory where your HTML files are located. 
+
 License
 This project is licensed under the MIT License.
 
