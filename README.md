@@ -36,4 +36,3 @@ The data used in this project is sourced from primary survey conducted in CEPT A
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
-Replace placeholders like "username", "repository", "path/to/your/file", [source_name](source_link), [contributor_name](contributor_profile_link), etc., with relevant information specific to your project. 
