@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Spatial Analysis and Visualization</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        #text-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            padding: 10px;
+            font-family: Arial;
+            font-size: 16px;
+            text-align: center;
+            margin: 10px auto;
+            opacity: 0.9;
+            z-index: 999;
+        }
+        #maps-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+        .map {
+            flex: 1;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="text-box">
+            Urban Spatial Analysis and Visualization: Exploring Delhi's Land Use and Property Valuation
+        </div>
+        <div id="maps-container">
+            <iframe src="plotly_map_with_heatmap.html" class="map"></iframe>
+            <iframe src="pydeck_map.html" class="map"></iframe>
+        </div>
+    </div>
+</body>
+</html>
