@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "path_geojason",
+"features": [
+{ "type": "Feature", "properties": { "id": "1", "area": "Laxmi Nagar", "latitude": "77.2775", "longitude": "28.61805556", "altitude": "0", "Timestamp": "2024-05-14T12:00:00Z" }, "geometry": null },
+{ "type": "Feature", "properties": { "id": "2", "area": "East DDA Park", "latitude": "77.27333333", "longitude": "28.62805556", "altitude": "0", "Timestamp": "2024-05-14T12:30:00Z" }, "geometry": null },
+{ "type": "Feature", "properties": { "id": "3", "area": "ITO", "latitude": "77.24138889", "longitude": "28.62777778", "altitude": "0", "Timestamp": "2024-05-14T13:00:00Z" }, "geometry": null },
+{ "type": "Feature", "properties": { "id": "4", "area": "ito-rajiv chowk", "latitude": "77.24055556", "longitude": "28.6275", "altitude": "0", "Timestamp": "2024-05-14T13:30:00Z" }, "geometry": null },
+{ "type": "Feature", "properties": { "id": "5", "area": "Rajiv Chowk (Minto)", "latitude": "77.22277778", "longitude": "28.63722222", "altitude": "0", "Timestamp": "2024-05-14T14:00:00Z" }, "geometry": null }
+]
+}
